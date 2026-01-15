@@ -278,7 +278,7 @@ export default function HomeScreen() {
         {/* Header */}
         <View style={styles.header}>
           <Text style={styles.greeting}>Xin chào,</Text>
-          <Text style={styles.userName}>{user?.name || 'User'}</Text>
+          <Text style={styles.userName}>{user?.name ? `${user.name}!` : 'Người dùng'}</Text>
         </View>
 
          {/* Initial setup notice */}
