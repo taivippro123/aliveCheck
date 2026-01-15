@@ -1,0 +1,62 @@
+# Dependencies
+node_modules/
+
+# Build artifacts
+android/app/build/
+android/build/
+android/.gradle/
+android/app/debug.keystore
+*.apk
+*.aab
+
+# Expo
+.expo/
+dist/
+web-build/
+
+# Git
+.git/
+.gitignore
+
+# Documentation
+README.md
+README_SETUP.md
+*.md
+
+# Scripts không cần thiết cho build
+scripts/
+
+# Example files
+app-example/
+
+# Debug files
+*.log
+npm-debug.*
+yarn-debug.*
+yarn-error.*
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# TypeScript
+*.tsbuildinfo
+
+# Metro
+.metro-health-check*
+
+# Test files (nếu có)
+**/__tests__/
+**/*.test.ts
+**/*.test.tsx
+**/*.spec.ts
+**/*.spec.tsx
+
+# Firebase - MUST be included in build
+!google-services.json
