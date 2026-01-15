@@ -4,9 +4,9 @@ import { Platform } from 'react-native';
 // iOS simulator có thể dùng localhost
 // Physical device cần dùng IP máy tính trên cùng mạng WiFi
 export const API_URL = Platform.select({
-  android: 'https://alive.nport.link/api', // Android emulator
-  ios: 'https://alive.nport.link/api', // iOS simulator
-  default: 'https://alive.nport.link/api', // Web hoặc fallback
+  android: 'https://alivecheck.onrender.com/api', // Android emulator
+  ios: 'https://alivecheck.onrender.com/api', // iOS simulator
+  default: 'https://alivecheck.onrender.com/api', // Web hoặc fallback
 });
 
 // Debug: Log API URL để kiểm tra khi app chạy
